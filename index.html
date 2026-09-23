@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Valledupar de América — Grupo de Vallenato</title>
+<meta name="description" content="Valledupar de América es una agrupación de vallenato en formación. Conoce a la banda, escucha nuestra historia y contáctanos para llevar la parranda a tu evento.">
+<meta name="theme-color" content="#142438">
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+<link rel="canonical" href="https://valledupardeamerica.example.com/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Valledupar de América — Grupo de Vallenato">
+<meta property="og:description" content="Vallenato auténtico desde el corazón. Conoce a la banda y contáctanos para tu próximo evento.">
+<meta property="og:locale" content="es_CO">
+<meta property="og:url" content="https://valledupardeamerica.example.com/">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<!-- ============ LOADING SCREEN ============ -->
+<div id="loader" aria-hidden="true">
+  <svg class="loader-bellows" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+    <rect class="fold" x="20" y="30" width="12" height="60" rx="2" fill="#D9A441"/>
+    <rect class="fold" x="40" y="30" width="12" height="60" rx="2" fill="#F2E9D8"/>
+    <rect class="fold" x="60" y="30" width="12" height="60" rx="2" fill="#D9A441"/>
+    <rect class="fold" x="80" y="30" width="12" height="60" rx="2" fill="#F2E9D8"/>
+  </svg>
+  <span class="loader-label" data-i18n="loader.label" data-i18n-es="Afinando el acordeón…" data-i18n-en="Tuning the accordion…">Afinando el acordeón…</span>
+</div>
+
+<a class="skip-link" href="#contenido" data-i18n="skip" data-i18n-es="Saltar al contenido" data-i18n-en="Skip to content">Saltar al contenido</a>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#142438"/><g fill="none" stroke="#D9A441" stroke-width="4" stroke-linecap="round"><path d="M14 20 L14 44"/><path d="M22 18 L22 46"/><path d="M30 20 L30 44"/><path d="M38 18 L38 46"/><path d="M46 20 L46 44"/></g><rect x="10" y="14" width="8" height="36" rx="2" fill="#B8332E"/><rect x="46" y="14" width="8" height="36" rx="2" fill="#B8332E"/></svg>
+      Valledupar de América
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#nosotros" data-i18n data-i18n-es="Nosotros" data-i18n-en="About">Nosotros</a></li>
+      <li><a href="#integrantes" data-i18n data-i18n-es="Integrantes" data-i18n-en="Members">Integrantes</a></li>
+      <li><a href="#testimonios" data-i18n data-i18n-es="Testimonios" data-i18n-en="Testimonials">Testimonios</a></li>
+      <li><a href="#contacto" data-i18n data-i18n-es="Contacto" data-i18n-en="Contact">Contacto</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <div class="lang-switch lang-switch-desktop" role="group" aria-label="Idioma / Language">
+        <button type="button" data-lang="es" aria-pressed="true">ES</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <button class="icon-btn" data-theme-toggle type="button" aria-pressed="false" aria-label="Cambiar tema">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v1M12 20v1M4.2 4.2l.7.7M18.4 18.4l.7.7M3 12h1M20 12h1M4.2 19.8l.7-.7M18.4 5.6l.7-.7"/><circle cx="12" cy="12" r="5"/></svg>
+      </button>
+      <button class="icon-btn" data-cmdk-open type="button" aria-label="Abrir paleta de comandos (Ctrl+K)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      </button>
+      <button class="nav-toggle" aria-expanded="false" aria-label="Abrir menú" aria-controls="mobile-drawer">
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer-backdrop"></div>
+<nav class="mobile-drawer" id="mobile-drawer" aria-label="Menú móvil">
+  <ul>
+    <li><a href="#nosotros" data-i18n data-i18n-es="Nosotros" data-i18n-en="About">Nosotros</a></li>
+    <li><a href="#integrantes" data-i18n data-i18n-es="Integrantes" data-i18n-en="Members">Integrantes</a></li>
+    <li><a href="#testimonios" data-i18n data-i18n-es="Testimonios" data-i18n-en="Testimonials">Testimonios</a></li>
+    <li><a href="#contacto" data-i18n data-i18n-es="Contacto" data-i18n-en="Contact">Contacto</a></li>
+  </ul>
+  <div class="lang-switch" role="group" aria-label="Idioma / Language">
+    <button type="button" data-lang="es" aria-pressed="true">ES</button>
+    <button type="button" data-lang="en" aria-pressed="false">EN</button>
+  </div>
+</nav>
+
+<main id="contenido">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="eyebrow-tag">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3l2.5 5.5L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-.5z"/></svg>
+          <span data-i18n data-i18n-es="Grupo de vallenato en formación" data-i18n-en="Vallenato group in the making">Grupo de vallenato en formación</span>
+        </span>
+        <h1 data-i18n data-i18n-es="Vallenato con <em>alma</em> caribeña" data-i18n-en="Vallenato with Caribbean <em>soul</em>">Vallenato con <em>alma</em> caribeña</h1>
+        <p class="lede" data-i18n data-i18n-es="Somos Valledupar de América: acordeón, voz y la parranda que nos une. Estamos construyendo la agrupación nota por nota, y buscamos a los cinco talentos que le faltan a esta caja vallenata." data-i18n-en="We are Valledupar de América: accordion, voice, and the parranda that unites us. We're building the group note by note, and looking for the five talents this caja vallenata still needs.">Somos Valledupar de América: acordeón, voz y la parranda que nos une. Estamos construyendo la agrupación nota por nota, y buscamos a los cinco talentos que le faltan a esta caja vallenata.</p>
+        <div class="hero-cta-row">
+          <a href="#contacto" class="btn" data-i18n data-i18n-es="Contáctanos" data-i18n-en="Get in touch">Contáctanos</a>
+          <a href="#integrantes" class="btn btn-outline" data-i18n data-i18n-es="Ver integrantes" data-i18n-en="Meet the band">Ver integrantes</a>
+        </div>
+
+        <div class="stat-row">
+          <div class="stat"><b>2</b><span data-i18n data-i18n-es="integrantes activos" data-i18n-en="active members">integrantes activos</span></div>
+          <div class="stat"><b>5</b><span data-i18n data-i18n-es="cupos abiertos" data-i18n-en="open spots">cupos abiertos</span></div>
+          <div class="stat"><b>100%</b><span data-i18n data-i18n-es="vallenato tradicional" data-i18n-en="traditional vallenato">vallenato tradicional</span></div>
+        </div>
+      </div>
+
+      <div class="hero-art float-slow" aria-hidden="true">
+        <svg viewBox="0 0 420 420" xmlns="http://www.w3.org/2000/svg">
+          <title>Ilustración de acordeón vallenato</title>
+          <circle cx="210" cy="210" r="190" fill="#0d1a29"/>
+          <g transform="translate(90,110)">
+            <rect x="0" y="0" width="60" height="200" rx="10" fill="#F2E9D8"/>
+            <rect x="180" y="0" width="60" height="200" rx="10" fill="#F2E9D8"/>
+            <g fill="#D9A441">
+              <rect x="63" y="10" width="14" height="180"/>
+              <rect x="83" y="10" width="14" height="180"/>
+              <rect x="103" y="10" width="14" height="180"/>
+              <rect x="123" y="10" width="14" height="180"/>
+              <rect x="143" y="10" width="14" height="180"/>
+              <rect x="163" y="10" width="14" height="180"/>
+            </g>
+            <g fill="#B8332E">
+              <circle cx="30" cy="40" r="6"/><circle cx="30" cy="65" r="6"/><circle cx="30" cy="90" r="6"/>
+              <circle cx="30" cy="115" r="6"/><circle cx="30" cy="140" r="6"/><circle cx="30" cy="165" r="6"/>
+            </g>
+            <g fill="#F2E9D8">
+              <rect x="205" y="20" width="20" height="14" rx="3"/>
+              <rect x="205" y="45" width="20" height="14" rx="3"/>
+              <rect x="205" y="70" width="20" height="14" rx="3"/>
+              <rect x="205" y="95" width="20" height="14" rx="3"/>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ NOSOTROS ============ -->
+  <section id="nosotros" class="container">
+    <div class="section-head" data-reveal>
+      <span class="section-tag" data-i18n data-i18n-es="Nuestra historia" data-i18n-en="Our story">Nuestra historia</span>
+      <h2 data-i18n data-i18n-es="Una parranda que apenas comienza" data-i18n-en="A parranda that's just getting started">Una parranda que apenas comienza</h2>
+      <p data-i18n data-i18n-es="Valledupar de América nació de las ganas de dos amigos —voz y acordeón— de llevar el vallenato tradicional a cada rincón. Hoy estamos armando la agrupación completa: caja, guacharaca, bajo y guitarra están por sumarse a esta historia." data-i18n-en="Valledupar de América was born from the drive of two friends — voice and accordion — to bring traditional vallenato everywhere. Today we're building the full lineup: caja, guacharaca, bass, and guitar are about to join this story.">Valledupar de América nació de las ganas de dos amigos —voz y acordeón— de llevar el vallenato tradicional a cada rincón. Hoy estamos armando la agrupación completa: caja, guacharaca, bajo y guitarra están por sumarse a esta historia.</p>
+    </div>
+
+    <div class="grid-members" data-reveal-group>
+      <div class="member-card" data-reveal>
+        <div class="member-avatar">🎙️</div>
+        <span class="member-role" data-i18n data-i18n-es="Voz principal" data-i18n-en="Lead vocals">Voz principal</span>
+        <h3 data-i18n data-i18n-es="Fundador · Vocalista" data-i18n-en="Founder · Vocalist">Fundador · Vocalista</h3>
+        <p data-i18n data-i18n-es="La voz que cuenta las historias del pueblo." data-i18n-en="The voice that tells the stories of the people.">La voz que cuenta las historias del pueblo.</p>
+      </div>
+      <div class="member-card" data-reveal>
+        <div class="member-avatar">🪗</div>
+        <span class="member-role" data-i18n data-i18n-es="Acordeón" data-i18n-en="Accordion">Acordeón</span>
+        <h3 data-i18n data-i18n-es="Fundador · Acordeonero" data-i18n-en="Founder · Accordionist">Fundador · Acordeonero</h3>
+        <p data-i18n data-i18n-es="El fuelle que le pone melodía a cada verso." data-i18n-en="The bellows that give every verse its melody.">El fuelle que le pone melodía a cada verso.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INTEGRANTES / VACANTES ============ -->
+  <section id="integrantes" class="container">
+    <div class="section-head" data-reveal>
+      <span class="section-tag" data-i18n data-i18n-es="Cupos abiertos" data-i18n-en="Open spots">Cupos abiertos</span>
+      <h2 data-i18n data-i18n-es="Nos faltas tú" data-i18n-en="We're missing you">Nos faltas tú</h2>
+      <p data-i18n data-i18n-es="Buscamos 5 músicos para completar la agrupación. Si tocas alguno de estos instrumentos y vives la música vallenata, escríbenos." data-i18n-en="We're looking for 5 musicians to complete the lineup. If you play one of these instruments and live vallenato music, get in touch.">Buscamos 5 músicos para completar la agrupación. Si tocas alguno de estos instrumentos y vives la música vallenata, escríbenos.</p>
+    </div>
+    <div class="grid-members" data-reveal-group>
+      <div class="member-card member-open" data-reveal>
+        <h3 data-i18n data-i18n-es="Caja vallenata" data-i18n-en="Caja vallenata">Caja vallenata</h3>
+        <p data-i18n data-i18n-es="Cupo abierto" data-i18n-en="Open spot">Cupo abierto</p>
+      </div>
+      <div class="member-card member-open" data-reveal>
+        <h3 data-i18n data-i18n-es="Guacharaca" data-i18n-en="Guacharaca">Guacharaca</h3>
+        <p data-i18n data-i18n-es="Cupo abierto" data-i18n-en="Open spot">Cupo abierto</p>
+      </div>
+      <div class="member-card member-open" data-reveal>
+        <h3 data-i18n data-i18n-es="Bajo" data-i18n-en="Bass">Bajo</h3>
+        <p data-i18n data-i18n-es="Cupo abierto" data-i18n-en="Open spot">Cupo abierto</p>
+      </div>
+      <div class="member-card member-open" data-reveal>
+        <h3 data-i18n data-i18n-es="Guitarra" data-i18n-en="Guitar">Guitarra</h3>
+        <p data-i18n data-i18n-es="Cupo abierto" data-i18n-en="Open spot">Cupo abierto</p>
+      </div>
+      <div class="member-card member-open" data-reveal>
+        <h3 data-i18n data-i18n-es="Coros / percusión" data-i18n-en="Backing vocals / percussion">Coros / percusión</h3>
+        <p data-i18n data-i18n-es="Cupo abierto" data-i18n-en="Open spot">Cupo abierto</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA REPETIDO #1 ============ -->
+  <section class="container">
+    <div class="cta-band" data-reveal>
+      <div>
+        <h2 data-i18n data-i18n-es="¿Tocas y quieres unirte?" data-i18n-en="Do you play and want to join?">¿Tocas y quieres unirte?</h2>
+        <p data-i18n data-i18n-es="Cuéntanos qué instrumento tocas y desde cuándo vives el vallenato." data-i18n-en="Tell us what you play and how long you've lived vallenato.">Cuéntanos qué instrumento tocas y desde cuándo vives el vallenato.</p>
+      </div>
+      <a href="#contacto" class="btn" data-i18n data-i18n-es="Escríbenos" data-i18n-en="Message us">Escríbenos</a>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIOS ============ -->
+  <section id="testimonios" class="container">
+    <div class="section-head" data-reveal style="margin-inline:auto; text-align:center;">
+      <span class="section-tag" data-i18n data-i18n-es="Lo que dicen de nosotros" data-i18n-en="What people say">Lo que dicen de nosotros</span>
+      <h2 data-i18n data-i18n-es="Voces que ya nos acompañaron" data-i18n-en="Voices who've already joined us">Voces que ya nos acompañaron</h2>
+    </div>
+
+    <div class="testimonial-wrap" data-reveal>
+      <div class="testimonial-track" data-skeleton>
+        <div class="testimonial is-active">
+          <blockquote data-i18n data-i18n-es="“Tocaron en el cumpleaños de mi papá y no paramos de bailar en toda la noche.”" data-i18n-en="“They played at my dad's birthday and we didn't stop dancing all night.”">"Tocaron en el cumpleaños de mi papá y no paramos de bailar en toda la noche."</blockquote>
+          <cite data-i18n data-i18n-es="— Marcela R., Valledupar" data-i18n-en="— Marcela R., Valledupar">— Marcela R., Valledupar</cite>
+        </div>
+        <div class="testimonial">
+          <blockquote data-i18n data-i18n-es="“Se nota el amor por el vallenato tradicional. Se sintió una parranda de verdad.”" data-i18n-en="“You can feel the love for traditional vallenato. It felt like a real parranda.”">"Se nota el amor por el vallenato tradicional. Se sintió una parranda de verdad."</blockquote>
+          <cite data-i18n data-i18n-es="— Luis F., organizador de eventos" data-i18n-en="— Luis F., event organizer">— Luis F., organizador de eventos</cite>
+        </div>
+        <div class="testimonial">
+          <blockquote data-i18n data-i18n-es="“Puntuales, profesionales y con un repertorio que emociona hasta las lágrimas.”" data-i18n-en="“Punctual, professional, and a repertoire that moves you to tears.”">"Puntuales, profesionales y con un repertorio que emociona hasta las lágrimas."</blockquote>
+          <cite data-i18n data-i18n-es="— Ana M., novia" data-i18n-en="— Ana M., bride">— Ana M., novia</cite>
+        </div>
+      </div>
+      <div class="testimonial-dots" role="tablist" aria-label="Seleccionar testimonio"></div>
+    </div>
+  </section>
+
+  <!-- ============ CTA REPETIDO #2 ============ -->
+  <section class="container">
+    <div class="cta-band" data-reveal style="background:linear-gradient(135deg, var(--teal), #0a2b2c);">
+      <div>
+        <h2 data-i18n data-i18n-es="Lleva la parranda a tu evento" data-i18n-en="Bring the parranda to your event">Lleva la parranda a tu evento</h2>
+        <p data-i18n data-i18n-es="Bodas, cumpleaños, ferias y parrandas privadas. Cuéntanos la fecha." data-i18n-en="Weddings, birthdays, fairs, and private parrandas. Tell us the date.">Bodas, cumpleaños, ferias y parrandas privadas. Cuéntanos la fecha.</p>
+      </div>
+      <a href="#contacto" class="btn" style="--btn-bg:#fff; --btn-fg:#0a2b2c;" data-i18n data-i18n-es="Cotiza tu evento" data-i18n-en="Get a quote">Cotiza tu evento</a>
+    </div>
+  </section>
+
+  <!-- ============ CONTACTO ============ -->
+  <section id="contacto" class="container">
+    <div class="section-head" data-reveal>
+      <span class="section-tag" data-i18n data-i18n-es="Hablemos" data-i18n-en="Let's talk">Hablemos</span>
+      <h2 data-i18n data-i18n-es="Escríbenos y te respondemos" data-i18n-en="Write to us and we'll reply">Escríbenos y te respondemos</h2>
+    </div>
+
+    <div class="contact-grid">
+      <div data-reveal>
+        <!--
+          IMPORTANTE PARA QUIEN PUBLIQUE ESTE SITIO:
+          - Reemplaza "action" por tu endpoint real (p. ej. Formspree, Netlify Forms, etc.).
+          - Quita data-demo="true" del <form> cuando conectes un backend real
+            (mientras tanto, el envío se simula para poder probar la validación).
+        -->
+        <form id="contact-form" action="https://formspree.io/f/tu-id" method="POST" data-demo="true" novalidate>
+          <div class="form-alert" role="alert"></div>
+
+          <div class="field">
+            <label for="nombre" data-i18n data-i18n-es="Nombre" data-i18n-en="Name">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required autocomplete="name">
+            <span class="error-msg" role="alert"></span>
+          </div>
+
+          <div class="field">
+            <label for="email" data-i18n data-i18n-es="Correo electrónico" data-i18n-en="Email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+            <span class="error-msg" role="alert"></span>
+          </div>
+
+          <div class="field">
+            <label for="telefono" data-i18n data-i18n-es="Teléfono (opcional)" data-i18n-en="Phone (optional)">Teléfono (opcional)</label>
+            <input type="tel" id="telefono" name="telefono" autocomplete="tel">
+            <span class="error-msg" role="alert"></span>
+          </div>
+
+          <div class="field">
+            <label for="tipo" data-i18n data-i18n-es="Motivo" data-i18n-en="Reason">Motivo</label>
+            <select id="tipo" name="tipo">
+              <option value="evento" data-i18n data-i18n-es="Contratar para un evento" data-i18n-en="Book for an event">Contratar para un evento</option>
+              <option value="musico" data-i18n data-i18n-es="Unirme como músico" data-i18n-en="Join as a musician">Unirme como músico</option>
+              <option value="otro" data-i18n data-i18n-es="Otro" data-i18n-en="Other">Otro</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="mensaje" data-i18n data-i18n-es="Mensaje" data-i18n-en="Message">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <span class="hint" data-i18n data-i18n-es="Mínimo 10 caracteres." data-i18n-en="Minimum 10 characters.">Mínimo 10 caracteres.</span>
+            <span class="error-msg" role="alert"></span>
+          </div>
+
+          <button type="submit" class="btn" data-i18n data-i18n-es="Enviar mensaje" data-i18n-en="Send message">Enviar mensaje</button>
+
+          <p class="form-note">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+            <span data-i18n data-i18n-es="Tu borrador se guarda automáticamente en este dispositivo mientras escribes. Al enviar, revisa nuestra <a href='privacidad.html'>política de privacidad</a>." data-i18n-en="Your draft is autosaved on this device as you type. By submitting, you agree to our <a href='privacidad.html'>privacy policy</a>.">Tu borrador se guarda automáticamente en este dispositivo mientras escribes. Al enviar, revisa nuestra <a href="privacidad.html">política de privacidad</a>.</span>
+          </p>
+        </form>
+      </div>
+
+      <div data-reveal>
+        <div class="contact-info-card">
+          <h3 data-i18n data-i18n-es="Otras formas de contacto" data-i18n-en="Other ways to reach us">Otras formas de contacto</h3>
+          <ul>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16v16H4z"/><path d="M22 6l-10 7L2 6"/></svg>
+              <span>
+                hola@valledupardeamerica.example.com
+                <button class="btn-ghost" type="button" data-copy="hola@valledupardeamerica.example.com" style="font-size:.78rem; text-decoration:underline;" data-i18n data-i18n-es="copiar" data-i18n-en="copy">copiar</button>
+              </span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.5 2.1L8 9.7a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.7 2z"/></svg>
+              <span>+57 300 000 0000</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <!-- Reemplaza con tu ciudad/dirección real de contacto público antes de publicar. -->
+              <span data-i18n data-i18n-es="Costa Caribe, Colombia (dirección exacta a confirmar)" data-i18n-en="Colombian Caribbean coast (exact address TBC)">Costa Caribe, Colombia (dirección exacta a confirmar)</span>
+            </li>
+          </ul>
+
+          <div class="social-row">
+            <a href="https://instagram.com/" aria-label="Instagram" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+            </a>
+            <a href="https://facebook.com/" aria-label="Facebook" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://tiktok.com/" aria-label="TikTok" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12a4 4 0 1 0 4 4V4c1 2 3 3 5 3"/></svg>
+            </a>
+            <a href="https://youtube.com/" aria-label="YouTube" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <button class="icon-btn" data-share data-share-text="Valledupar de América — Vallenato con alma caribeña" aria-label="Compartir">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 10.6l6.8-3.8M8.6 13.4l6.8 3.8"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="index.html" class="brand" style="color:var(--arena);">
+        <svg viewBox="0 0 64 64" aria-hidden="true" width="30" height="30"><rect width="64" height="64" rx="14" fill="#0d1a29"/><g fill="none" stroke="#D9A441" stroke-width="4" stroke-linecap="round"><path d="M14 20 L14 44"/><path d="M22 18 L22 46"/><path d="M30 20 L30 44"/><path d="M38 18 L38 46"/><path d="M46 20 L46 44"/></g></svg>
+        Valledupar de América
+      </a>
+      <p style="margin-top:1rem; max-width: 34ch;" data-i18n data-i18n-es="Vallenato tradicional para bodas, ferias y parrandas. En formación, con toda la actitud." data-i18n-en="Traditional vallenato for weddings, fairs, and parrandas. In the making, with all the attitude.">Vallenato tradicional para bodas, ferias y parrandas. En formación, con toda la actitud.</p>
+    </div>
+    <div>
+      <h4 data-i18n data-i18n-es="Explorar" data-i18n-en="Explore">Explorar</h4>
+      <ul>
+        <li><a href="#nosotros" data-i18n data-i18n-es="Nosotros" data-i18n-en="About">Nosotros</a></li>
+        <li><a href="#integrantes" data-i18n data-i18n-es="Integrantes" data-i18n-en="Members">Integrantes</a></li>
+        <li><a href="#contacto" data-i18n data-i18n-es="Contacto" data-i18n-en="Contact">Contacto</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-i18n data-i18n-es="Legal" data-i18n-en="Legal">Legal</h4>
+      <ul>
+        <li><a href="privacidad.html" data-i18n data-i18n-es="Política de privacidad" data-i18n-en="Privacy policy">Política de privacidad</a></li>
+        <li><a href="terminos.html" data-i18n data-i18n-es="Términos y condiciones" data-i18n-en="Terms &amp; conditions">Términos y condiciones</a></li>
+        <li><a href="sitemap.xml" data-i18n data-i18n-es="Mapa del sitio" data-i18n-en="Sitemap">Mapa del sitio</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>&copy; <span id="year">2026</span> Valledupar de América. <span data-i18n data-i18n-es="Todos los derechos reservados." data-i18n-en="All rights reserved.">Todos los derechos reservados.</span></span>
+    <span class="kbd-hint">Ctrl/Cmd + K <span data-i18n data-i18n-es="para comandos" data-i18n-en="for commands">para comandos</span></span>
+  </div>
+</footer>
+
+<!-- ============ BOTÓN VOLVER ARRIBA ============ -->
+<button class="to-top" aria-label="Volver arriba" type="button">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<!-- ============ BANNER DE COOKIES ============ -->
+<div class="cookie-banner" role="dialog" aria-label="Aviso de cookies">
+  <p data-i18n data-i18n-es="Usamos cookies propias y de analítica para mejorar tu experiencia. Puedes leer más en nuestra <a href='privacidad.html'>política de privacidad</a>." data-i18n-en="We use our own and analytics cookies to improve your experience. Read more in our <a href='privacidad.html'>privacy policy</a>.">Usamos cookies propias y de analítica para mejorar tu experiencia. Puedes leer más en nuestra <a href="privacidad.html">política de privacidad</a>.</p>
+  <div class="cookie-actions">
+    <button class="btn" type="button" data-cookie-accept data-i18n data-i18n-es="Aceptar" data-i18n-en="Accept">Aceptar</button>
+    <button class="btn btn-outline" type="button" data-cookie-decline data-i18n data-i18n-es="Rechazar" data-i18n-en="Decline">Rechazar</button>
+  </div>
+</div>
+
+<!-- ============ COMMAND PALETTE ============ -->
+<div class="cmdk-overlay" role="dialog" aria-label="Paleta de comandos">
+  <div class="cmdk-panel">
+    <input class="cmdk-input" type="text" placeholder="Escribe un comando o busca una sección…" aria-label="Buscar comando">
+    <ul class="cmdk-list"></ul>
+  </div>
+  <a href="#nosotros" data-cmdk-item="Ir a Nosotros" style="display:none;"></a>
+  <a href="#integrantes" data-cmdk-item="Ir a Integrantes" style="display:none;"></a>
+  <a href="#testimonios" data-cmdk-item="Ir a Testimonios" style="display:none;"></a>
+  <a href="#contacto" data-cmdk-item="Ir a Contacto" style="display:none;"></a>
+  <a href="privacidad.html" data-cmdk-item="Política de privacidad" style="display:none;"></a>
+</div>
+
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
